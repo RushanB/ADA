@@ -1,0 +1,93 @@
+V "GNAT Lib v2012"
+A -O2
+A -g
+A -gnatA
+P ZX
+R nnnvnnnnnnnnnnnnnnnnnnnnnvvnnnnvnnnnnnnnnnnnvnnnnnnnnnnvnnvnnnnvnnnnnnvnnnnnnnnnnnnnn
+
+U doublel%b		doublel.adb		a9f7dbb6 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.unchecked_deallocation%s
+
+U doublel%s		doublel.ads		2cb0c340 EE NE OO PK
+
+D ada.ads		20120510125802 3ffc8e18
+D a-except.ads		20120510125752 ec1b44c1
+D a-finali.ads		20120510125752 52ecdc1b
+D a-inteio.ads		20120510125752 f64b89a4
+D a-ioexce.ads		20120510125752 8b9de6cd
+D a-stream.ads		20120510125756 2ca4ee37
+D a-tags.ads		20120510125758 6c0509d0
+D a-textio.ads		20120510125800 386df5d4
+D a-tiinio.ads		20120510125800 aa04e5d6
+D a-unccon.ads		20120510125800 f9eb8f06
+D a-uncdea.ads		20120510125800 f15a5ed1
+D doublel.ads		20140214181258 2cb0c340
+D doublel.adb		20140214184710 ba3b3a57
+D interfac.ads		20120510125814 129923ea
+D i-cstrea.ads		20120510125814 1bd72c32
+D system.ads		20120510125846 6daf90c4
+D s-crtl.ads		20120510125824 ac77b159
+D s-exctab.ads		20120510125824 66e51330
+D s-ficobl.ads		20120510125824 443b9d66
+D s-finmas.ads		20120510125824 b95bb341
+D s-finroo.ads		20120510125824 4ff27390
+D s-parame.ads		20120510125832 b6e20cc0
+D s-pooglo.ads		20120510125832 542f33d0
+D s-soflin.ads		20120510125832 24c8153c
+D s-stache.ads		20120510125834 596fc1b4
+D s-stalib.ads		20120510125834 f78bcf95
+D s-stoele.ads		20120510125834 facd7d98
+D s-stoele.adb		20120510125834 afc5dc80
+D s-stopoo.ads		20120510125834 7b8fbeee
+D s-traent.ads		20120510125838 5221ee41
+D s-unstyp.ads		20120510125838 6ae15c76
+D s-wchcon.ads		20120510125840 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 13|1r6 1r23 2r6 2r30 3r6 8r10
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[9|45] 13|2w10 2r34
+X 8 a-textio.ads
+49K13*Text_IO 471e16 13|1w10 1r27
+166U14*New_Line 13|24s7
+242U14*Put 13|21s10
+X 9 a-tiinio.ads
+65U14*Put 13|20s10[4|18]
+X 11 a-uncdea.ads
+20u15*Unchecked_Deallocation 13|3w10 8r14
+X 12 doublel.ads
+1K9*DoubleL 32l5 32e12 13|5b14 82l5 82t12
+3I12*SubElement{integer} 8r17 23r56 13|27r56
+4R9*Dnode 5r24 7c9 11e14 13|8r38 32r19
+5P9*Dptr(4R9) 9r14 10r14 14r14 13|8r45 16r14 28r14 29r17 30r18 71r14
+8i7*Element{3I12} 13|20r20 33m12 40r18 40r35 46r21 46r39
+9p7*Next{5P9} 13|22r23 38m15 42m15 48r32 52m12 54m16 76r25
+10p7*Prev{5P9} 13|39m15 41m17 44m15 53m12 56m21
+13R9*Dlist 15e14 17r32 20r31 23r36 26r29 29r32 13|10r32 15r31 27r36 61r29
+. 70r32
+14p7*Head{5P9} 13|12m9 18r17 34r20 37m12 40r30 41r12 42r25 43m12 63r12 75r20
+. 76m12 79m9
+17U14*Start 17=21 13|10b14 13l8 13t13
+17r21 L{13R9} 13|10b21 12m7
+20U14*Contents 20>24 13|15b14 25l8 25t16
+20r24 L{13R9} 13|15b24 18r15
+23U14*Insertion 23=25 23>43 13|27b14 59l8 59t17
+23r25 L{13R9} 13|27b25 34r18 36r18 37m10 40r28 41m10 41r10 42r23 43m10
+23i43 Element{3I12} 13|27b43 33r23
+26V13*isEmpty{boolean} 26>22 13|36s10 61b13 68l8 68t15 74s20
+26r22 L{13R9} 13|61b22 63r10
+29U14*Empty 29=21 13|70b14 80l8 80t13
+29r21 L{13R9} 13|70b21 74r28 75r18 76m10 79m7
+X 13 doublel.adb
+7U14 Free[11|20] 77s10
+16p7 Temp{12|5P9} 18m7 19r13 20r15 22m10 22r18
+28p7 Temp{12|5P9} 32m7 33m7 33r7 37r20 38m10 38r10 39m10 39r10 40r13 41r25
+. 42m10 42r10 43r20 44m10 44r10 46r16 52m7 52r7 53m7 53r7 54r24 56r29
+29p7 Current{12|5P9} 34m7 46r31 47r25 48m13 48r24 49r16 52r20 55r13 56m13
+. 56r13
+30p7 Previous{12|5P9} 35m7 47m13 53r20 54m7 54r7
+71p7 Temp{12|5P9} 75m10 76r20 77m15 77r15
+
